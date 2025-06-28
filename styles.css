@@ -1,0 +1,81 @@
+fieldset{
+  background-color:antiquewhite;
+  color: black;
+  max-width: 500px;
+  min-width: 300px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px grey; 
+}
+label{
+  display: block;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+body{
+  background-color: white;
+}
+form{
+  display: flex;
+  justify-content: center;
+}
+#title{
+  display: flex;
+  justify-content: center;
+}
+#description{
+  display: flex;
+  justify-content: center;
+}
+#name{
+  margin-top: 5px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+#email{
+  margin-top: 5px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+#number{
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 160px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+#dropdown{
+  margin-top: 5px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+#textarea{
+  margin-top: 5px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+#submit{
+  margin-top: 20px;
+  margin-left: 55px;
+  width: 200px;
+  display: block;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  transition: background-color 1.3s, transform 0.5s;
+}
+#submit:hover{
+  background-color:saddlebrown;
+  transform: scale(1.1);
+  color: white;
+}
